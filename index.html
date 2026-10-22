@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>孙志军 | Personal Website</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="nav-container">
+      <a href="#home" class="logo">SarahEcki</a>
+      <ul class="nav-menu" id="navMenu">
+        <li><a href="#home">首页</a></li>
+        <li><a href="#about">关于我</a></li>
+        <li><a href="#resume">简历</a></li>
+        <li><a href="#skills">技能</a></li>
+        <li><a href="#contact">联系</a></li>
+      </ul>
+      <div class="hamburger" id="hamburger">
+        <span></span><span></span><span></span>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <section id="home" class="hero">
+    <div class="hero-content">
+      <h1>你好，我是 <span class="highlight">孙志军</span></h1>
+      <p class="subtitle">西交利物浦大学 · 计算机科学与技术 · 大一</p>
+      <div class="hero-buttons">
+        <a href="#resume" class="btn btn-primary">查看简历</a>
+        <a href="resume.pdf" class="btn btn-outline" download>下载 PDF</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="section">
+    <div class="container">
+      <h2 class="section-title">关于我</h2>
+      <p class="lead">
+        我是一名热爱计算机科学的大一新生，对 Web 开发、软件工程和人工智能充满兴趣。
+        学习能力强，做事细致，乐于在团队中协作与沟通。
+      </p>
+    </div>
+  </section>
+
+  <!-- Resume -->
+  <section id="resume" class="section section-alt">
+    <div class="container">
+      <h2 class="section-title">个人简历</h2>
+
+      <div class="resume-block">
+        <h3>教育背景</h3>
+        <div class="resume-item">
+          <div class="resume-head">
+            <strong>西交利物浦大学 (XJTLU)</strong>
+            <span class="date">2026.09 – 至今</span>
+          </div>
+          <p>计算机科学与技术专业，核心课程：CSI205 Web 开发、编程基础、数据结构。</p>
+        </div>
+      </div>
+
+      <div class="resume-block">
+        <h3>校园经历</h3>
+        <div class="resume-item">
+          <div class="resume-head">
+            <strong>CSI205 个人网页设计项目</strong>
+            <span class="date">2026.10</span>
+          </div>
+          <p>独立完成 HTML/CSS 静态网站开发，学习前端工程化与响应式布局，并部署至 GitHub Pages。</p>
+        </div>
+      </div>
+
+      <div class="resume-block">
+        <h3>技能</h3>
+        <ul class="skill-list">
+          <li>Python</li>
+          <li>HTML / CSS</li>
+          <li>JavaScript (入门)</li>
+          <li>Git</li>
+          <li>英语 (IELTS 6.5)</li>
+        </ul>
+      </div>
+
+      <div class="resume-download">
+        <a href="resume.pdf" class="btn btn-primary" download>下载完整简历 (PDF)</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills" class="section">
+    <div class="container">
+      <h2 class="section-title">技能矩阵</h2>
+      <div class="skill-grid">
+        <div class="skill-card"><div class="skill-icon">🐍</div><h4>Python</h4><p>日常编程与数据处理</p></div>
+        <div class="skill-card"><div class="skill-icon">🌐</div><h4>HTML / CSS</h4><p>响应式网页布局</p></div>
+        <div class="skill-card"><div class="skill-icon">⚡</div><h4>JavaScript</h4><p>前端交互入门</p></div>
+        <div class="skill-card"><div class="skill-icon">🔧</div><h4>Git</h4><p>版本控制与协作</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="section section-alt">
+    <div class="container">
+      <h2 class="section-title">联系我</h2>
+      <p class="lead">欢迎交流学习、项目合作或技术讨论。</p>
+      <div class="contact-info">
+        <p>GitHub: <a href="https://github.com/SarahEcki" target="_blank">github.com/SarahEcki</a></p>
+        <p>Website: <a href="https://sarahecki.github.io/" target="_blank">sarahecki.github.io</a></p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2026 孙志军 · Built with CSI205</p>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
